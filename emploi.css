@@ -1,0 +1,82 @@
+h1{ 
+    text-align: center;
+    text-decoration: solid;
+    background-image: linear-gradient(to right, rgb(212, 255, 0), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* The -webkit-background-clip: text; property specifies that the gradient should only apply to the text itself, and -webkit-text-fill-color: transparent; makes the text color transparent to allow the gradient to show through.*/
+    border: 3px solid ;
+    border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(212, 255, 0));
+    border-image-slice: 1; /* 1 is to cover the entire border area */
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  
+}
+.big {
+    text-align: center;
+  }
+
+body{
+    background: linear-gradient(to right, rgb(217, 217, 217), rgb(255, 255, 255));
+
+}      
+
+table{
+    border: 2px;
+    width: 75%;
+    height: 70%;
+    border-spacing: 5px;
+    border-collapse: separate;
+    border: 5px;
+    background:linear-gradient(to right, rgb(251, 255, 0), rgb(237, 81, 53));
+
+}
+
+table,tr, td {
+    border: 1px solid;
+    text-align: center;
+  }
+
+.transparent-input {
+    background-color: transparent;
+    border:none;
+    height: 2.5em;
+  }
+tr{
+    height: 3em;
+}  
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 8em;
+    height: 2em;
+    justify-content: center;
+
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.9s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+#reset{
+    background:linear-gradient(to right, rgb(255, 0, 0), rgb(212, 255, 0));
+}
+#save{
+    background:linear-gradient(to right, rgb(251, 255, 0), rgb(237, 81, 53));
+}
